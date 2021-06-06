@@ -1,0 +1,43 @@
+* {
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.parent {
+	width: 100%;
+	text-align: center;
+	margin-top: 15rem;
+	position: relative;
+}
+
+.video {
+	border-radius: 2rem;
+	z-index: 10;
+}
+
+.parent::before {
+	z-index: -1;
+	content: "";
+	bottom: -3rem;
+	left: 26.7%;
+	position: absolute;
+	background-color: #80c627;
+	opacity: 0.2;
+	height: 27rem;
+	width: 63rem;
+	border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.parent::after {
+	z-index: -2;
+	content: "";
+	bottom: -6rem;
+	left: 25%;
+	position: absolute;
+	background-color: #80c627;
+	opacity: 0.2;
+	height: 30rem;
+	width: 70rem;
+	border-radius: 0 0 1.5rem 1.5rem;
+}
