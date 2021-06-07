@@ -389,7 +389,7 @@ li {
 .popular-recipies{
 	margin-top:6rem;
 	background-color:#F6F6F6;
-	padding:6rem 0 6rem 0;
+	padding:8rem 0 8rem 0;
 }
 
 
@@ -410,7 +410,7 @@ li {
 	margin-left: 0.8rem;
 }
 .popular-recipies__cards {
-	margin-top:4rem;
+	margin-top:6rem;
 }
 
 .popular-recipies__card{
@@ -428,6 +428,68 @@ li {
 	font-weight: 700;
 	margin-top:1.5rem;
 }
+
+
+
+
+.recent-news{
+	margin-top:6rem;
+	padding:8rem 0 8rem 0;
+}
+
+
+
+.recent-news__title{
+	font-size:5rem;
+	font-weight: bold;
+	color:var(--primary-color);
+}
+
+.recent-news__view-all-text{
+	color:var(--primary-color);
+	font-weight: 700;
+}
+
+.recent-news__view-all-image{
+	width:3.5rem;
+	margin-left: 0.8rem;
+}
+.recent-news__cards {
+	margin-top:6rem;
+}
+
+.recent-news__card{
+	border-radius: 1rem;
+	background-color:var(--white-color);
+	box-shadow: 0px 0px 30px #1724751A;
+	width:21%;
+}
+
+.recent-news__card-image{
+	border-radius: 1rem 1rem 0 0;
+	width:100%;
+}
+
+.recent-news__card-body{
+	padding:2rem;
+}
+
+.recent-news__card-title{
+	font-weight: 700;
+	margin-top:1.5rem;
+	font-size:1.3rem;
+}
+
+.recent-news__card-excerpt{
+	margin-top:1rem;
+	font-size:0.5rem;
+}
+
+
+
+
+
+
 /*utility*/
 
 .container {
