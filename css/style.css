@@ -386,6 +386,48 @@ li {
 	font-weight: 700;
 }
 
+.popular-recipies{
+	margin-top:6rem;
+	background-color:#F6F6F6;
+	padding:6rem 0 6rem 0;
+}
+
+
+
+.popular-recipies__title{
+	font-size:5rem;
+	font-weight: bold;
+	color:var(--primary-color);
+}
+
+.popular-recipies__view-all-text{
+	color:var(--primary-color);
+	font-weight: 700;
+}
+
+.popular-recipies__view-all-image{
+	width:3.5rem;
+	margin-left: 0.8rem;
+}
+.popular-recipies__cards {
+	margin-top:4rem;
+}
+
+.popular-recipies__card{
+	padding:2rem;
+	border:2px dashed var(--primary-color);
+	border-radius: 1rem;
+	background-color:var(--white-color);
+}
+
+.popular-recipies__card-image{
+	border-radius: 1rem;
+	width:20rem;
+}
+.popular-recipies__card-text{
+	font-weight: 700;
+	margin-top:1.5rem;
+}
 /*utility*/
 
 .container {
