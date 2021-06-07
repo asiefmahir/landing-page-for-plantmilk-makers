@@ -146,21 +146,349 @@ li {
 	border: none;
 	padding: 1.8rem 5rem;
 	margin-top: 3rem;
-	border-radius: 5px;
+	border-radius: var(--primary-border-radius);
 }
+
+
 .how-it-works {
 	margin-top: 6rem;
 }
 
 .how-it-works__title {
 	color: var(--primary-color);
-	font-size: 3rem;
+	font-size: 4rem;
 	text-align: center;
 	font-weight: 700;
 }
 
-.card {
+.how-it-works__cards{
+	margin-top:13rem;
 }
+
+.how-it-works__card {
+	background-color: #F6F6F6;
+	border-radius: var(--secondary-border-radius);
+	padding:5rem 1.5rem;
+	width:25%;
+}
+
+.how-it-works__image-wrap{
+	position:relative;
+}
+
+.how-it-works__bordered{
+	position:absolute;
+	top: -13.5rem;
+	left:50%;
+	transform:translate(-50%);
+	background:white;
+	border:10px solid var(--info-color);
+	width:15rem;
+	height:15rem;
+	border-radius:50%;
+	z-index: 1;
+}
+
+
+.how-it-works__dasshed {
+    position: absolute;
+    top: -14.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    border: 2px dashed var(--primary-color);
+    width: 17rem;
+    height: 17rem;
+}
+
+.how-it-works__card-image{
+	position: absolute;
+	top: -11rem;
+	left:50%;
+	transform:translate(-50%);
+	width:14rem;
+	height:10rem;
+	z-index: 2;
+}
+
+.how-it-works__card-title{
+	color:#112433;
+	font-size:2rem;
+	margin-top:5rem;
+	text-align: center;
+}
+
+.how-it-works__card-excerpt{
+	text-align:center;
+	line-height: 2.5rem;
+	margin-top:2rem;
+}
+
+.how-it-works__video-wrapper{
+	width:100%;
+	text-align:center;
+	position:relative;
+}
+
+.how-it-works__video{
+	width: 60%;
+	position: relative;
+	margin:10rem auto;
+	border-radius:2rem;
+}
+
+.how-it-works__video-wrapper::before {
+    z-index: -2;
+    content: "";
+    bottom: 3rem;
+    left: 18.5%;
+    position: absolute;
+    background-color: rgb(128, 198, 39);
+    opacity: 0.2;
+    height: 46%;
+    width: 63%;
+    border-radius: 0px 0px 1.5rem 1.5rem;
+}
+.how-it-works__video-wrapper::after {
+    z-index: -2;
+    content: "";
+    bottom: 7rem;
+    left: 16.9%;
+    position: absolute;
+    background-color: #80c627;
+    opacity: 0.2;
+    height: 40%;
+    width: 66%;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+
+.shop{
+	background:#f9f9f6;
+	margin-top:3rem;
+	
+}
+.shop__title{
+	color: var(--primary-color);
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 700;
+	padding-top:10rem;
+}
+
+
+.shop__card{
+	margin-top:3rem;
+}
+
+.shop__card-image{
+
+}
+
+.shop__card-details{
+	font-size:2rem;
+}
+
+.shop__card-title{
+	font-size: 3rem;
+	font-weight: bold;
+}
+.shop__card-desc{
+	margin-top:2rem;
+}
+
+.shop__card-button{
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	font-size: 1rem;
+	outline: none;
+	border: none;
+	padding: 1.8rem 5rem;
+	margin-top: 3rem;
+	border-radius: var(--primary-border-radius);
+}
+
+
+
+
+.why-plant-milk{
+	margin-top:3rem;
+}
+
+.why-plant-milk__title{
+	color: var(--primary-color);
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 700;
+	padding-top:10rem;
+}
+
+.why-plant-milk__subtitle{
+	text-align:center;
+	margin-top:3rem;
+}
+
+.why-plant-milk__buttons{
+	margin-top:3rem;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.why-plant-milk__button{
+	border:none;
+	outline:none;
+	padding:2rem 4rem;
+	cursor:pointer;
+}
+
+.why-plant-milk__button--primary{
+	border-radius:5rem 0 0 5rem;
+	background:var(--primary-color);
+	color:var(--white-color);
+}
+
+.why-plant-milk__button--secondary{
+	border-radius:0 5rem 5rem 0;
+	border: 1px solid var(--primary-color);
+	background:transparent;
+	color:var(--primary-color);
+}
+
+
+.why-plant-milk__excerpt{
+	text-align:center;
+	font-size:1.5rem;
+	margin-top:3rem;
+	line-height:3rem;
+}
+
+.why-plant-milk__images{
+	text-align: center;
+}
+
+.why-plant-milk__our-speciality-item{
+	margin-top:2.5rem;
+}
+
+.why-plant-milk__our-speciality-item{
+	background-color:var(--white-color);
+	padding:1rem 6rem;
+	box-shadow: 5px 5px 20px #80C62733;
+}
+
+.why-plant-milk__our-speciality-image{
+	width:5rem;
+}
+
+.why-plant-milk__our-speciality-text{
+	margin-left:2rem;
+	font-weight: 700;
+}
+
+.popular-recipies{
+	margin-top:6rem;
+	background-color:#F6F6F6;
+	padding:8rem 0 8rem 0;
+}
+
+
+
+.popular-recipies__title{
+	font-size:5rem;
+	font-weight: bold;
+	color:var(--primary-color);
+}
+
+.popular-recipies__view-all-text{
+	color:var(--primary-color);
+	font-weight: 700;
+}
+
+.popular-recipies__view-all-image{
+	width:3.5rem;
+	margin-left: 0.8rem;
+}
+.popular-recipies__cards {
+	margin-top:6rem;
+}
+
+.popular-recipies__card{
+	padding:2rem;
+	border:2px dashed var(--primary-color);
+	border-radius: 1rem;
+	background-color:var(--white-color);
+}
+
+.popular-recipies__card-image{
+	border-radius: 1rem;
+	width:20rem;
+}
+.popular-recipies__card-text{
+	font-weight: 700;
+	margin-top:1.5rem;
+}
+
+
+
+
+.recent-news{
+	margin-top:6rem;
+	padding:8rem 0 8rem 0;
+}
+
+
+
+.recent-news__title{
+	font-size:5rem;
+	font-weight: bold;
+	color:var(--primary-color);
+}
+
+.recent-news__view-all-text{
+	color:var(--primary-color);
+	font-weight: 700;
+}
+
+.recent-news__view-all-image{
+	width:3.5rem;
+	margin-left: 0.8rem;
+}
+.recent-news__cards {
+	margin-top:6rem;
+}
+
+.recent-news__card{
+	border-radius: 1rem;
+	background-color:var(--white-color);
+	box-shadow: 0px 0px 30px #1724751A;
+	width:21%;
+}
+
+.recent-news__card-image{
+	border-radius: 1rem 1rem 0 0;
+	width:100%;
+}
+
+.recent-news__card-body{
+	padding:2rem;
+}
+
+.recent-news__card-title{
+	font-weight: 700;
+	margin-top:1.5rem;
+	font-size:1.3rem;
+}
+
+.recent-news__card-excerpt{
+	margin-top:1rem;
+	font-size:0.5rem;
+}
+
+
+
+
+
 
 /*utility*/
 
@@ -178,4 +506,11 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+
+.flex-space-evenly {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
