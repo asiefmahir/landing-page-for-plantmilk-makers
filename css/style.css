@@ -116,9 +116,15 @@ li {
 	padding: 2rem;
 	margin-top: 3rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 =======
+=======
+}
+
+
+>>>>>>> ece53a17ef21c5cb62c57f2d23cfaaa1df4a008e
 	position: relative;
 }
 .wave {
@@ -126,7 +132,11 @@ li {
 	width: 100%;
 	top: 60rem;
 }
+<<<<<<< HEAD
 >>>>>>> a6a097cb3d6e6c5ac4cfa3e2f4d7ecfefa5d6785
+=======
+
+>>>>>>> ece53a17ef21c5cb62c57f2d23cfaaa1df4a008e
 .hero__description {
 	width: 35%;
 }
@@ -493,7 +503,10 @@ li {
 	font-size: 0.5rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ece53a17ef21c5cb62c57f2d23cfaaa1df4a008e
 
 
 .footer{
@@ -519,7 +532,10 @@ li {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ece53a17ef21c5cb62c57f2d23cfaaa1df4a008e
 /*utility*/
 
 .container {
