@@ -422,9 +422,7 @@ li {
 	background-color:var(--white-color);
 }
 
-.popular-recipies__card::nth-child(1){
-	margin-left:12rem;
-}
+
 
 .popular-recipies__card-image{
 	border-radius: 1rem;
