@@ -398,6 +398,8 @@ li {
 	font-size:5rem;
 	font-weight: bold;
 	color:var(--primary-color);
+	margin-left:5rem;
+
 }
 
 .popular-recipies__view-all-text{
@@ -420,9 +422,13 @@ li {
 	background-color:var(--white-color);
 }
 
+.popular-recipies__card::nth-child(1){
+	margin-left:12rem;
+}
+
 .popular-recipies__card-image{
 	border-radius: 1rem;
-	width:20rem;
+	width:100%;
 }
 .popular-recipies__card-text{
 	font-weight: 700;
@@ -434,6 +440,7 @@ li {
 
 .recent-news{
 	margin-top:6rem;
+
 	padding:8rem 0 8rem 0;
 }
 
@@ -443,6 +450,7 @@ li {
 	font-size:5rem;
 	font-weight: bold;
 	color:var(--primary-color);
+	margin-left:4rem;
 }
 
 .recent-news__view-all-text{
@@ -484,6 +492,9 @@ li {
 	margin-top:1rem;
 	font-size:0.5rem;
 }
+
+
+
 
 
 
