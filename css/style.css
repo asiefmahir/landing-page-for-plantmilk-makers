@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #80c627;
-	--primary-color-2: #81c62746;
+	--primary-color-2: #81c627ab;
 	--secondary-color: #666666;
 	--info-color: #80c6271a;
 	--white-color: #fff;
@@ -102,7 +102,7 @@ li {
 }
 
 .hero.active {
-	background: linear-gradient(var(--white-color), var(--info-color));
+	background: linear-gradient(var(--white-color), #81c62752);
 	padding: 2rem;
 	margin-top: 3rem;
 	position:relative;
