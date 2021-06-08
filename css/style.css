@@ -105,6 +105,13 @@ li {
 	background: linear-gradient(var(--white-color), var(--info-color));
 	padding: 2rem;
 	margin-top: 3rem;
+	position:relative;
+}
+.wave{
+	position: absolute;
+    width: 100%;
+    top: 73rem;
+
 }
 .hero__description {
 	width: 35%;
