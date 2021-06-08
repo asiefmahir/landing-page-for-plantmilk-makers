@@ -39,6 +39,16 @@ li {
 	list-style-type: none;
 }
 
+.header{
+	position:relative;
+}
+
+.wave{
+	position: absolute;
+	bottom:-2rem;
+	width:100%;
+}
+
 .nav {
 	background-color: var(--white-color);
 	box-shadow: 0px 10px 20px var(--info-color);
@@ -105,14 +115,8 @@ li {
 	background: linear-gradient(var(--white-color), #81c62752);
 	padding: 2rem;
 	margin-top: 3rem;
-	position:relative;
 }
-.wave{
-	position: absolute;
-    width: 100%;
-    top: 73rem;
 
-}
 .hero__description {
 	width: 35%;
 }
