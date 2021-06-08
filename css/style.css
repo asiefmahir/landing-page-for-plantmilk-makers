@@ -125,7 +125,7 @@ li {
 
 .hero.active {
 	background: linear-gradient(var(--white-color), #81c62748);
-	padding: 2rem;
+	padding: 2rem 2rem 5rem;
 	margin-top: 3rem;
 }
 
@@ -435,7 +435,7 @@ li {
 	font-size: 4.5rem;
 	font-weight: bold;
 	color: var(--primary-color);
-	/* margin-left: 3rem; */
+	margin-left: 3.5rem;
 }
 
 .popular-recipies__view-all-text {
