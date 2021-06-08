@@ -39,6 +39,16 @@ li {
 	list-style-type: none;
 }
 
+.header{
+	position:relative;
+}
+
+.wave{
+	position: absolute;
+	bottom:-2rem;
+	width:100%;
+}
+
 .nav {
 	background-color: var(--white-color);
 	box-shadow: 0px 10px 20px var(--info-color);
@@ -46,8 +56,14 @@ li {
 	/* margin-bottom: 2rem; */
 }
 
+.nav__elements{
+	display:flex;
+	align-items:center;
+}
+
 .logo {
 	display: inherit;
+	
 }
 
 .logo__image {
@@ -56,7 +72,13 @@ li {
 }
 
 .menu {
-	width: 40%;
+	margin-left:7rem;
+	
+}
+.menu__item{
+	padding:0.8rem;
+	margin-left:1.5rem;
+
 }
 
 .menu__link {
@@ -64,7 +86,7 @@ li {
 }
 
 .signin-cart-wrapper {
-	/* width:12%; */
+	margin-left:8rem;
 }
 
 .signin-cart-wrapper__cart-icon {
@@ -97,21 +119,18 @@ li {
 	background-color: var(--primary-color);
 	color: var(--white-color);
 	padding: 0.6rem 1rem;
-	margin-left: 1rem;
+	margin-left: 2.5rem;
 	border-radius: var(--primary-border-radius);
 }
 
 .hero.active {
-	background: linear-gradient(var(--white-color), #81c62752);
+	background: linear-gradient(var(--white-color), #81c62748);
 	padding: 2rem;
 	margin-top: 3rem;
-	position: relative;
+
 }
-.wave {
-	position: absolute;
-	width: 100%;
-	top: 60rem;
-}
+
+
 .hero__description {
 	width: 35%;
 }
@@ -119,12 +138,11 @@ li {
 .hero__image-wrapper {
 	/* width: 48rem;
 	height: 34rem; */
-	width: 65%;
+	width:65%;
 }
 
 .hero__image {
-	width: 100%;
-	height: 100%;
+	width: 80rem;
 }
 
 .hero__title {
@@ -283,6 +301,7 @@ li {
 }
 
 .shop__card-image {
+	width:35%;
 }
 
 .shop__card-details {
@@ -413,6 +432,7 @@ li {
 	border: 2px dashed var(--primary-color);
 	border-radius: 1rem;
 	background-color: var(--white-color);
+	width:28%;
 }
 
 .popular-recipies__card-image {
@@ -477,7 +497,37 @@ li {
 	font-size: 0.5rem;
 }
 
+
+
+.footer{
+	margin-top:3rem;
+}
+
+.footer__logo-decs{
+	margin-left:5rem;
+	width:30%;
+
+}
+
+
+
+.footer__important-links{
+	width:20%;
+}
+
+.footer__important-link-items-wrapper{
+	margin-top:1.5rem;
+	display:flex;
+	justify-content:space-between;
+
+}
+
 /*utility*/
+
+.secondary-container {
+	width: 70%;
+	margin: auto;
+}
 
 .container {
 	width: 70%;
