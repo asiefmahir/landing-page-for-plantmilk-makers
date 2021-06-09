@@ -4,12 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+			integrity="undefined"
+			crossorigin="anonymous"
+		/>
 
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
-		
 
 		<script src="https://use.fontawesome.com/e9ce01f92f.js"></script>
 
@@ -55,8 +59,7 @@
 					</div>
 				</div>
 			</nav>
-			<section class="hero active">
-				
+			<section class="hero active" id="first">
 				<div class="container flex-space-between">
 					<section class="hero__description">
 						<h1 class="hero__title">Premium branded reusable bottles</h1>
@@ -69,7 +72,47 @@
 					</section>
 					<div class="hero__image-wrapper">
 						<img
-							src="./assets/images/Homepage – 1/hero1_img.png"
+							src="./assets/images/Homepage/Hero Area/svg/hero1_img.svg"
+							alt=""
+							class="hero__image"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="hero hidden" id="second">
+				<div class="container flex-space-between">
+					<section class="hero__description">
+						<h1 class="hero__title">Premium branded reusable bottles 2</h1>
+						<p class="hero__excerpt">
+							Protect the environment, keep milk fresher and tastier longer.
+							Beautifully designed branding acknowledging your homemade-DIY
+							efforts.
+						</p>
+						<button class="shop-now__button">SHOP NOW</button>
+					</section>
+					<div class="hero__image-wrapper">
+						<img
+							src="./assets/images/Homepage/Hero Area/svg/hero2_img.svg"
+							alt=""
+							class="hero__image"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="hero hidden" id="third">
+				<div class="container flex-space-between">
+					<section class="hero__description">
+						<h1 class="hero__title">Premium branded reusable bottles 3</h1>
+						<p class="hero__excerpt">
+							Protect the environment, keep milk fresher and tastier longer.
+							Beautifully designed branding acknowledging your homemade-DIY
+							efforts.
+						</p>
+						<button class="shop-now__button">SHOP NOW</button>
+					</section>
+					<div class="hero__image-wrapper">
+						<img
+							src="./assets/images/Homepage/Hero Area/svg/hero3_img.svg"
 							alt=""
 							class="hero__image"
 						/>
@@ -97,13 +140,13 @@
 				</div>
 			</section> -->
 			<img src="./assets/images/wave.svg" alt="" class="wave" />
-			<i class="fa fa-chevron-left prev"></i>
-			<i class="fa fa-chevron-right next"></i>
+			<i id="prev-icon" class="fa fa-chevron-left prev"></i>
+			<i id="next-icon" class="fa fa-chevron-right next"></i>
 		</header>
 		<section class="how-it-works">
 			<div class="container">
 				<div class="how-it-works__icon">
-					<img src="./assets/icons/header-img.png" alt="stylish icon">
+					<img src="./assets/icons/header-img.png" alt="stylish icon" />
 				</div>
 				<h2 class="how-it-works__title">How it Works</h2>
 				<section class="how-it-works__cards flex-space-evenly">
@@ -170,7 +213,7 @@
 		<section class="shop">
 			<div class="container">
 				<div class="shop__icon">
-					<img src="./assets/icons/header-img.png" alt="stylish icon">
+					<img src="./assets/icons/header-img.png" alt="stylish icon" />
 				</div>
 				<h2 class="shop__title">Get More Out of Your Milk Making</h2>
 				<section class="shop__card flex-space-evenly">
@@ -503,40 +546,38 @@
 					<ul class="footer__social-link-items flex-space-between">
 						<li class="footer__social-link-item">
 							<a href="#" class="footer__social-link">
-								<img src="./assets/icons/fb.svg" alt="facebook">
+								<img src="./assets/icons/fb.svg" alt="facebook" />
 							</a>
 						</li>
 						<li class="footer__social-link-item">
 							<a href="" class="footer__social-link">
-								<img src="./assets/icons/yt.svg" alt="youtube">
+								<img src="./assets/icons/yt.svg" alt="youtube" />
 							</a>
 						</li>
 						<li class="footer__social-link-item">
 							<a href="" class="footer__social-link">
-								<img src="./assets/icons/pin.svg" alt="pinterest">
+								<img src="./assets/icons/pin.svg" alt="pinterest" />
 							</a>
 						</li>
 						<li class="footer__social-link-item">
 							<a href="" class="footer__social-link">
-								<img src="./assets/icons/twitter.svg" alt="twitter">
+								<img src="./assets/icons/twitter.svg" alt="twitter" />
 							</a>
 						</li>
 						<li class="footer__social-link-item">
 							<a href="" class="footer__social-link">
-								<img src="./assets/icons/instagram.svg" alt="">
+								<img src="./assets/icons/instagram.svg" alt="" />
 							</a>
 						</li>
 					</ul>
-					<div class="footer__social-moto">Our community is growing. Join us!</div>
+					<div class="footer__social-moto">
+						Our community is growing. Join us!
+					</div>
 				</section>
-
-				
 			</div>
 
 			<section class="secondary-footer container">
-				<button class="secondary-footer__button">
-					Become a Partner
-				</button>
+				<button class="secondary-footer__button">Become a Partner</button>
 				<span class="secondary-footer__copy-right-text">
 					Copyright © 2021 Plant Milk Maker
 				</span>
@@ -545,8 +586,6 @@
 				</p>
 			</section>
 		</footer>
-
-
-
+		<script src="./js/app.js"></script>
 	</body>
 </html>
