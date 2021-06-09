@@ -54,7 +54,6 @@ li {
 .icon-wrapper {
 	position: absolute;
 	top: 40%;
-	left: 1rem;
 	transform: translate(40%);
 	border: 2px dashed var(--primary-color);
 	border-radius: 50%;
@@ -66,33 +65,21 @@ li {
 	transition: 0.4s;
 }
 
-.prev {
-}
-
-.prev:hover {
+.icon-wrapper:hover {
 	color: white;
 	background: var(--primary-color);
 }
+
+
+.prev {
+	left:1rem;
+}
+
 
 .next {
-	position: absolute;
-	top: 40%;
-	right: 5rem;
-	transform: translate(40%);
-	border: 2px dashed var(--primary-color);
-	border-radius: 50%;
-	width: 5rem;
-	height: 5rem;
-	padding: 1.4rem 1.8rem;
-	font-size: 2rem;
-	color: var(--primary-color);
-	font-family: "font-awesome";
-	transition: 0.4s;
+	right:5rem;
 }
-.next:hover {
-	color: white;
-	background: var(--primary-color);
-}
+
 
 .nav {
 	background-color: var(--white-color);
