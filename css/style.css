@@ -336,7 +336,7 @@ li {
 .how-it-works__video-wrapper::after {
 	z-index: -2;
 	content: "";
-	bottom: 7rem;
+	bottom: 6.45rem;
 	left: 16.9%;
 	position: absolute;
 	background-color: #80c627;
@@ -530,6 +530,9 @@ li {
 .popular-recipies__card-text {
 	font-weight: 700;
 	margin-top: 1.5rem;
+	color: #3e4d59;
+	font-size: 1.6rem;
+	line-height: 2.5rem;
 }
 
 .recent-news {
