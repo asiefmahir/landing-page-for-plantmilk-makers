@@ -35,7 +35,6 @@ const prevHandler = () => {
     clickCount--;
     carouselHandler()
     console.log(clickCount)
-
 }
 
 const nextHandler = () => {

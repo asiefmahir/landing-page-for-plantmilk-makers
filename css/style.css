@@ -51,7 +51,7 @@ li {
 	width: 100%;
 }
 
-.prev {
+.icon-wrapper {
 	position: absolute;
 	top: 40%;
 	left: 1rem;
@@ -64,6 +64,9 @@ li {
 	font-size: 2rem;
 	color: var(--primary-color);
 	transition: 0.4s;
+}
+
+.prev {
 }
 
 .prev:hover {
@@ -678,11 +681,15 @@ li {
 	outline: none;
 	border: none;
 	padding: 1.8rem 2rem;
-	margin-top: 3rem;
+	/* margin-top: 2rem; */
 	border-radius: var(--primary-border-radius);
 }
 .secondary-footer__moto {
 	margin-top: 1.5rem;
+}
+
+.secondary-footer__copy-right-text {
+	margin-top: 2rem;
 }
 /*utility*/
 
