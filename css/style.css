@@ -473,8 +473,7 @@ li {
 }
 .why-plant-milk__our-speciality-items {
 	margin-top: 2.5rem;
-	flex-wrap:wrap;
-
+	flex-wrap: wrap;
 }
 
 .why-plant-milk__our-speciality-item {
@@ -484,10 +483,9 @@ li {
 	font-size: 1.8rem;
 	color: #3e4d59;
 	margin-top: 2.5rem;
-	width:26%;
-	display:flex;
-	align-items:center;
-
+	width: 26%;
+	display: flex;
+	align-items: center;
 }
 
 .why-plant-milk__our-speciality-image {
@@ -509,7 +507,7 @@ li {
 	font-size: 4.5rem;
 	font-weight: bold;
 	color: var(--primary-color);
-	margin-left: 3.5rem;
+	margin-left: 0.5rem;
 }
 
 .popular-recipies__view-all-text {
@@ -531,7 +529,7 @@ li {
 	border: 2px dashed var(--primary-color);
 	border-radius: 1rem;
 	background-color: var(--white-color);
-	width: 28%;
+	width: 32%;
 }
 
 .popular-recipies__card-image {
@@ -555,7 +553,10 @@ li {
 	font-size: 4.5rem;
 	font-weight: 700;
 	color: var(--primary-color);
-	margin-left: 3rem;
+	margin-left: 2rem;
+}
+.recent-news__view-all {
+	margin-right: 2rem;
 }
 
 .recent-news__view-all-text {
@@ -578,7 +579,7 @@ li {
 	border-radius: 1rem;
 	background-color: var(--white-color);
 	box-shadow: 0px 0px 30px #1724751a;
-	width: 21%;
+	width: 22%;
 }
 
 .recent-news__card-image {
