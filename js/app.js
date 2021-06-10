@@ -7,9 +7,9 @@ const thirdSliderSection = document.getElementById('third')
 let clickCount = 0;
 
 const carouselHandler = () => {
-    if (((clickCount % 3) + 3) % 3 === 0) {
+    if (((clickCount % 3) + 3) % 3 === 0) { // clickCount % 3 === 0
         firstSliderSection.classList.add('active');
-        firstSliderSection.classList.remove('hidden')
+        firstSliderSection.classList.remove('hidden');
         secondSliderSection.classList.remove('active');
         secondSliderSection.classList.add('hidden')
         thirdSliderSection.classList.remove('active')
