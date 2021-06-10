@@ -53,8 +53,8 @@ li {
 
 .icon-wrapper {
 	position: absolute;
-	top: 40%;
-	transform: translate(40%);
+	top: 49%;
+	transform: translate(50%);
 	border: 2px dashed var(--primary-color);
 	border-radius: 50%;
 	width: 5rem;
@@ -70,16 +70,13 @@ li {
 	background: var(--primary-color);
 }
 
-
 .prev {
-	left:1rem;
+	left: 1rem;
 }
-
 
 .next {
-	right:5rem;
+	right: 8rem;
 }
-
 
 .nav {
 	background-color: var(--white-color);
@@ -157,7 +154,7 @@ li {
 
 .hero {
 	background: linear-gradient(var(--white-color), #81c62748);
-	padding: 2rem 2rem 5rem;
+	padding: 2rem 2rem 7rem;
 	margin-top: 3rem;
 }
 
@@ -174,8 +171,6 @@ li {
 }
 
 .hero__image-wrapper {
-	/* width: 48rem;
-	height: 34rem; */
 	width: 65%;
 }
 

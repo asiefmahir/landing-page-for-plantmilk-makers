@@ -1,0 +1,149 @@
+@media (max-width: 1440px) {
+	.hero__image {
+		width: 75rem;
+	}
+}
+
+@media (max-width: 1365px) {
+	.hero__image {
+		width: 70rem;
+	}
+}
+
+@media (max-width: 1308px) {
+	.hero__image {
+		width: 65rem;
+	}
+	.menu {
+		margin-left: 5rem;
+	}
+}
+@media (max-width: 1275px) {
+	.menu {
+		margin-left: 3rem;
+	}
+	.signin-cart-wrapper {
+		margin-left: 5rem;
+	}
+}
+@media (max-width: 1212px) {
+	.hero__image {
+		width: 62rem;
+	}
+}
+
+@media (max-width: 1204px) {
+	.signin-cart-wrapper {
+		margin-left: 4rem;
+	}
+	.logo__image {
+		width: 15rem;
+	}
+}
+
+@media (max-width: 1168px) {
+	.hero__image {
+		width: 60rem;
+	}
+}
+
+@media (max-width: 1148px) {
+	.signin-cart-wrapper {
+		margin-left: 4rem;
+	}
+	.logo__image {
+		width: 12rem;
+	}
+}
+
+@media (max-width: 1135px) {
+	.hero__image {
+		width: 55rem;
+	}
+}
+
+@media (max-width: 1104px) {
+	.menu {
+		margin-left: 2rem;
+	}
+	.signin-cart-wrapper {
+		margin-left: 3rem;
+	}
+	.logo__image {
+		width: 11rem;
+	}
+}
+
+@media (max-width: 1061px) {
+	.menu {
+		margin-left: 1rem;
+	}
+	.signin-cart-wrapper {
+		margin-left: 2rem;
+	}
+	.logo__image {
+		width: 11rem;
+	}
+}
+
+@media (max-width: 1032px) {
+	.menu__item {
+		margin-left: 1rem;
+	}
+}
+@media (max-width: 991px) {
+	.menu__item {
+		margin-left: 0.8rem;
+	}
+}
+
+@media (max-width: 972px) {
+	.menu__item {
+		margin-left: 0.5rem;
+	}
+}
+
+@media (max-width: 947px) {
+	.menu__item {
+		margin-left: 0.3rem;
+	}
+	.signin-cart-wrapper {
+		margin-left: 2rem;
+	}
+	.logo__image {
+		width: 10rem;
+	}
+}
+
+@media (max-width: 930px) {
+	.menu__item {
+		margin-left: 0.3rem;
+	}
+	.menu__link {
+		font-size: 1.2rem;
+	}
+	.signin-cart-wrapper {
+		margin-left: 1rem;
+	}
+	.logo__image {
+		width: 8rem;
+	}
+}
+
+@media (max-width: 847px) {
+	.signin-cart-wrapper__cart-image {
+		width: 2rem;
+	}
+	.menu__link {
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.signin-cart-wrapper__cart-image {
+		width: 1.8rem;
+	}
+	.menu__link {
+		font-size: 1rem;
+	}
+}
