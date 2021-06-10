@@ -327,27 +327,29 @@ li {
 
 .how-it-works__video-wrapper::before {
 	z-index: -2;
-	content: "";
-	bottom: 3rem;
-	left: 18.5%;
-	position: absolute;
-	background-color: rgb(128, 198, 39);
-	opacity: 0.2;
-	height: 46%;
-	width: 63%;
-	border-radius: 0px 0px 1.5rem 1.5rem;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-color: rgb(128, 198, 39);
+    opacity: 0.2;
+    height: 46%;
+    width: 63%;
+    border-radius: 0px 0px 1.5rem 1.5rem;
 }
 .how-it-works__video-wrapper::after {
 	z-index: -2;
-	content: "";
-	bottom: 6.45rem;
-	left: 16.9%;
-	position: absolute;
-	background-color: #80c627;
-	opacity: 0.2;
-	height: 40%;
-	width: 66%;
-	border-radius: 0 0 1.5rem 1.5rem;
+    content: "";
+    top: 50%;
+    transform: translate(-50%);
+    left: 50%;
+    position: absolute;
+    background-color: rgb(128, 198, 39);
+    opacity: 0.2;
+    height: 40%;
+    width: 66%;
+    border-radius: 0px 0px 1.5rem 1.5rem;
 }
 
 .shop {
