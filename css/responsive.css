@@ -266,3 +266,44 @@
 		margin-bottom: 7rem;
 	}
 }
+
+/* Shop Section */
+
+@media (max-width: 1024px) {
+	.shop__card-title {
+		font-size: 2rem;
+	}
+	.shop__card-desc {
+		font-size: 1.5rem;
+		line-height: 1.2;
+	}
+}
+
+@media (max-width: 856px) {
+	.shop__title {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.shop-flex-wrapper-1 {
+		flex-direction: column;
+	}
+	.shop-flex-wrapper-2 {
+		flex-direction: column-reverse;
+	}
+	.shop__card-details {
+		text-align: center;
+	}
+	.shop__card-image {
+		width: 50%;
+	}
+	.shop__card-title {
+		font-size: 3rem;
+	}
+	.shop__card-desc {
+		/* font-size: 2rem; */
+		/* text-align: justify; */
+		font-weight: 500;
+	}
+}
