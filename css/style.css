@@ -467,14 +467,13 @@ li {
 	text-align: center;
 	margin-top: 5rem;
 }
-.why-plant-milk__images {
+.why-plant-milk__image {
 	width: 74rem;
 }
 .why-plant-milk__our-speciality-items {
 	margin-top: 2.5rem;
-}
-.why-plant-milk__our-speciality-item {
-	margin-top: 2.5rem;
+	flex-wrap:wrap;
+
 }
 
 .why-plant-milk__our-speciality-item {
@@ -483,6 +482,11 @@ li {
 	box-shadow: 5px 5px 20px #80c62733;
 	font-size: 1.8rem;
 	color: #3e4d59;
+	margin-top: 2.5rem;
+	width:26%;
+	display:flex;
+	align-items:center;
+
 }
 
 .why-plant-milk__our-speciality-image {
