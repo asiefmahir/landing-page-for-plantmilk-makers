@@ -17,6 +17,10 @@
 	.menu {
 		margin-left: 5rem;
 	}
+	.why-plant-milk__our-speciality-item{
+		padding: 1rem 3rem;
+
+	}
 }
 @media (max-width: 1275px) {
 	.menu {
@@ -60,6 +64,12 @@
 @media (max-width: 1135px) {
 	.hero__image {
 		width: 55rem;
+	}
+	.why-plant-milk__our-speciality-item{
+		padding:1.5rem;
+	}
+	.why-plant-milk__our-speciality-image {
+		width:3rem;
 	}
 }
 
@@ -112,6 +122,14 @@
 @media (max-width: 1032px) {
 	.menu__item {
 		margin-left: 1rem;
+	}
+
+	.how-it-works__video-wrapper::before{
+		height:36%;
+	}
+
+	.how-it-works__video-wrapper::after{
+		height: 33%;
 	}
 }
 @media (max-width: 991px) {
@@ -181,6 +199,28 @@
 		width: 12rem;
 		height: 12rem;
 	}
+
+	.how-it-works__video-wrapper::before{
+		height:33%;
+	}
+
+	.how-it-works__video-wrapper::after{
+		height: 30%;
+	}
+
+	.why-plant-milk__image{
+		width:100%;
+	}
+
+	.why-plant-milk__our-speciality-image {
+		width:2.3rem;
+	}
+
+	.why-plant-milk__our-speciality-text{
+		font-size:0.8rem;
+		font-weight: 400;
+		margin-left:1rem;
+	}
 }
 
 @media (max-width: 847px) {
@@ -189,6 +229,15 @@
 	}
 	.menu__link {
 		font-size: 1.1rem;
+	}
+
+	.why-plant-milk__our-speciality-item{
+		padding: 1rem 2rem;
+		width:32%;
+	}
+
+	.why-plant-milk__our-speciality-image{
+		width:2.5rem;
 	}
 }
 
@@ -211,6 +260,25 @@
 	.how-it-works__card{
 		width:90%;
 		margin-bottom:7rem;
+	}
+
+	.how-it-works__video-wrapper::before{
+		height:30%;
+	}
+
+	.how-it-works__video-wrapper::after{
+		height: 26%;
+	}
+
+	.why-plant-milk__our-speciality-items{
+		flex-direction: column;
+	}
+	.why-plant-milk__our-speciality-item{
+		width:90%;
+	}
+	.why-plant-milk__our-speciality-text{
+		font-weight: 700;
+		margin-left:2.5rem;
 	}
 }
 
