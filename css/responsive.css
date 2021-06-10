@@ -372,12 +372,52 @@
 		font-size: 3rem;
 	}
 	.shop__card-desc {
-		/* font-size: 2rem; */
-		/* text-align: justify; */
 		font-weight: 500;
 	}
 }
 
+
+
+
+
+/* Recipies Section */
+
+@media (max-width: 993px) {
+	.popular-recipies__card-text {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 893px) {
+	.popular-recipies__card-text {
+		font-size: 1.2rem;
+		line-height: 2.2rem;
+	}
+}
+
+@media (max-width: 793px) {
+	.popular-recipies__card-text {
+		font-size: 1.1rem;
+		line-height: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.popular-recipies__title {
+		font-size: 3rem;
+	}
+	.popular-recipies__cards {
+		display: flex;
+		flex-direction: column;
+	}
+	.popular-recipies__card {
+		width: 100%;
+		margin-top: 2rem;
+	}
+	.popular-recipies__card-text {
+		font-size: 2rem;
+	}
+}
 
 
 

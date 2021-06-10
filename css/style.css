@@ -508,7 +508,7 @@ li {
 	font-size: 4.5rem;
 	font-weight: bold;
 	color: var(--primary-color);
-	margin-left: 3.5rem;
+	margin-left: 0.5rem;
 }
 
 .popular-recipies__view-all-text {
@@ -530,7 +530,7 @@ li {
 	border: 2px dashed var(--primary-color);
 	border-radius: 1rem;
 	background-color: var(--white-color);
-	width: 28%;
+	width: 32%;
 }
 
 .popular-recipies__card-image {
