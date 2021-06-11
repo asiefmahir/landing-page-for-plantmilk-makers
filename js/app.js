@@ -11,20 +11,20 @@ const carouselHandler = () => {
         firstSliderSection.classList.add('active');
         firstSliderSection.classList.remove('hidden');
         secondSliderSection.classList.remove('active');
-        secondSliderSection.classList.add('hidden')
-        thirdSliderSection.classList.remove('active')
-        thirdSliderSection.classList.add('hidden')
+        secondSliderSection.classList.add('hidden');
+        thirdSliderSection.classList.remove('active');
+        thirdSliderSection.classList.add('hidden');
     } else if (((clickCount % 3) + 3) % 3 === 2) {
         thirdSliderSection.classList.add('active');
         thirdSliderSection.classList.remove('hidden');
         firstSliderSection.classList.add('hidden')
         firstSliderSection.classList.remove('active');
         secondSliderSection.classList.add('hidden');
-        secondSliderSection.classList.remove('active')
+        secondSliderSection.classList.remove('active');
     } else {
         secondSliderSection.classList.add('active');
         secondSliderSection.classList.remove('hidden');
-        firstSliderSection.classList.add('hidden')
+        firstSliderSection.classList.add('hidden');
         firstSliderSection.classList.remove('active');
         thirdSliderSection.classList.add('hidden');
         thirdSliderSection.classList.remove('active');

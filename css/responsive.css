@@ -462,8 +462,7 @@
 	.footer__social-links{
 		width:100%;
 	}
-
-=======
+}
 /* Recent News Section */
 
 @media (max-width: 990px) {
@@ -506,3 +505,19 @@
 		margin-right: 0;
 	}
 }
+
+/*menu*/
+
+@media (max-width:768px) {
+	.nav__elements{
+		justify-content: space-between;
+	}
+	.menu {
+		display:none;
+	}
+
+	.signin-cart-wrapper{
+		display:none;
+	}
+}
+
