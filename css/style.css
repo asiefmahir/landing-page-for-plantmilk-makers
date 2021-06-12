@@ -610,15 +610,15 @@ li {
 	padding-top: 8rem;
 }
 
-.footer__elements{
-	display:flex;
+.footer__elements {
+	display: flex;
 	justify-content: space-between;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 }
 
 .footer__logo-decs {
 	margin-left: 5rem;
-	width:30%;
+	width: 30%;
 }
 
 .footer__decs {
@@ -631,7 +631,7 @@ li {
 }
 
 .footer__important-links {
-	width:20%;
+	width: 20%;
 }
 
 .footer__important-link-items-wrapper {
