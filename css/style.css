@@ -33,12 +33,15 @@ body {
 /* width */
 ::-webkit-scrollbar {
 	width: 20px;
+	transition:0.2s;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 10px 1px var(--info-color);
 	border-radius: var(--primary-border-radius);
+
+
 }
 
 /* Handle */

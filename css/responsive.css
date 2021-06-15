@@ -334,7 +334,40 @@
 		font-weight: 700;
 		margin-left: 2.5rem;
 	}
+	.why-plant-milk__button{
+		padding:1rem;
+	}
 }
+
+
+@media (max-width:360px){
+	.why-plant-milk__title{
+		padding-top:4rem;
+	}
+}
+
+/*how it works mobile divices*/
+@media (max-width:500px){
+	.how-it-works{
+		margin-top:3rem;
+	}
+	.how-it-works__video{
+		margin-top:2rem;
+	}
+	.how-it-works__video-wrapper::before{
+		height:22%;
+		top:45%;
+	}
+	.how-it-works__video-wrapper::after{
+		height:18%;
+		top:45%;
+	}
+	.wave{
+		bottom:-1rem;
+	}
+}
+
+
 
 /* Shop Section */
 
@@ -376,7 +409,13 @@
 }
 
 
-
+@media (max-width: 500px) {
+	.shop {
+		margin-top: -4rem;
+		padding-top: 5rem;
+		padding-bottom: 8rem;
+	}
+}
 
 
 /* Recipies Section */
@@ -420,49 +459,7 @@
 
 
 
-/*footer Section*/
-@media (max-width:1184px){
-	.footer__logo-decs {
-		margin-left: 0rem;
-		width:50%;
-	}
 
-	.footer__important-links {
-		width:30%;
-	}
-
-	.footer__social-links-title {
-		margin-top: 3rem;	
-	}
-}
-
-@media (max-width:970px){
-	.footer__important-links {
-		width:38%;
-	}
-}
-
-
-@media (max-width:768px){
-	
-	.footer__elements{
-		flex-direction: column;
-		align-items:center;
-	}
-	
-	.footer__logo-decs {
-		width:100%;
-	}
-
-	.footer__important-links {
-		width:100%;
-		margin-top:3rem;
-	}
-
-	.footer__social-links{
-		width:100%;
-	}
-}
 /* Recent News Section */
 
 @media (max-width: 990px) {
@@ -523,6 +520,7 @@
 		width:65%;
 		padding:2rem;
 		z-index: 10;
+		margin-left:-1rem;
 	}
 
 
@@ -590,5 +588,104 @@
 
 }
 
+/*menu and hero mobile devices*/
+
+@media (max-width:420px){
+	.logo {
+		display: inherit;
+		margin-left: -3rem;
+	}
+	.nav{
+		padding:2rem 0rem;
+	}
+	.btn{
+		left:1rem;
+	}
+	.next {
+		right: 5rem;
+	}
+	.prev {
+		left: -1rem;
+	}
+}
 
 
+
+/*menu and hero mobile devices*/
+@media (max-width:360px){
+	.menu.active {
+		width: 78%;
+		margin-left: -2.5rem;
+	}
+
+	.next {
+		right: 3rem;
+	}
+	.prev {
+		left: -1.5rem;
+	}
+}
+
+
+
+/*footer Section*/
+@media (max-width:1184px){
+	.footer__logo-decs {
+		margin-left: 0rem;
+		width:50%;
+	}
+
+	.footer__important-links {
+		width:30%;
+	}
+
+	.footer__social-links-title {
+		margin-top: 3rem;	
+	}
+}
+
+@media (max-width:970px){
+	.footer__important-links {
+		width:38%;
+	}
+}
+
+
+@media (max-width:768px){
+	
+	.footer__elements{
+		flex-direction: column;
+		align-items:center;
+	}
+	
+	.footer__logo-decs {
+		width:100%;
+	}
+
+	.footer__important-links {
+		width:100%;
+		margin-top:3rem;
+	}
+
+	.footer__social-links{
+		width:100%;
+	}
+}
+
+@media (max-width: 360px){
+
+	.footer__social-link-item {
+		padding: 0.9rem 0.7rem;
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+	.footer__social-link-item img {
+		margin-left: 0;
+		width:1.5rem;
+	}
+
+	.footer__social-link-item:nth-child(1) img{
+		width:1rem;
+	}
+	
+}
