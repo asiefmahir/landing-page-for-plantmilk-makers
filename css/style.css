@@ -206,6 +206,12 @@ li {
 	width: 100%;
 }
 
+.hero__img--modifire{
+	width:88%;
+	height:60rem;
+	object-fit: cover;
+}
+
 .hero__title {
 	color: var(--primary-color);
 	font-size: 4rem;
@@ -674,9 +680,6 @@ li {
 
 .footer__social-links-title {
 	font-weight: bold;
-}
-
-.footer__social-link-items {
 }
 
 .footer__social-link-item {
