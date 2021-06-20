@@ -203,6 +203,12 @@ li {
 	width: 80rem;
 }
 
+.hero__img--modifire{
+	width:88%;
+	height:60rem;
+	object-fit: cover;
+}
+
 .hero__title {
 	color: var(--primary-color);
 	font-size: 4rem;
