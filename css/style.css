@@ -202,6 +202,9 @@ li {
 .hero__image {
 	width: 80rem;
 }
+.hero__image-small {
+	width: 100%;
+}
 
 .hero__title {
 	color: var(--primary-color);
@@ -234,7 +237,7 @@ li {
 }
 
 .how-it-works {
-	margin-top: 18rem;
+	margin-top: 10rem;
 }
 
 .how-it-works__icon {
@@ -473,7 +476,15 @@ li {
 }
 .why-plant-milk__image {
 	width: 74rem;
+	object-fit: cover;
 }
+/* .why-plant-milk__images-wrapper {
+	text-align: center;
+	margin-top: 5rem;
+}
+.why-plant-milk__image {
+	width: 74rem;
+} */
 .why-plant-milk__our-speciality-items {
 	margin-top: 2.5rem;
 	flex-wrap: wrap;
@@ -498,6 +509,17 @@ li {
 .why-plant-milk__our-speciality-text {
 	margin-left: 2rem;
 	font-weight: 700;
+}
+
+.active-button {
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+.secondary-button {
+	background: transparent;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
 }
 
 .popular-recipies {
@@ -627,7 +649,8 @@ li {
 
 .footer__decs {
 	margin-top: 2.5rem;
-	line-height: 2.5rem;
+	line-height: 1.6rem;
+	font-size: 1.3rem;
 }
 
 .footer__important-links-title {
@@ -646,6 +669,7 @@ li {
 
 .footer__link-item {
 	margin-top: 1.2rem;
+	font-size: 1.5rem;
 }
 
 .footer__social-links-title {
@@ -673,7 +697,8 @@ li {
 .footer__social-moto {
 	margin-top: 1rem;
 	margin-left: 1rem;
-	font-weight: bold;
+	/* font-weight: bold; */
+	font-size: 1.4rem;
 }
 
 .secondary-footer {
@@ -693,6 +718,7 @@ li {
 
 .secondary-footer__copy-right-text {
 	float: right;
+	font-size: 1.3rem;
 }
 .secondary-footer__button {
 	background-color: var(--primary-color);
@@ -707,6 +733,7 @@ li {
 }
 .secondary-footer__moto {
 	margin-top: 1.5rem;
+	font-size: 1.3rem;
 }
 
 .secondary-footer__copy-right-text {

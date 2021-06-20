@@ -7,12 +7,13 @@ const btn     = document.getElementById("btn");
 const menu = document.getElementById("menu");
 const mediaScreen = window.matchMedia("(max-width: 768px)")
 
+
+const homeSection = document.getElementById('home-section');
+const storeSection = document.getElementById('store-section')
+const storeButton = document.getElementById('store')
+const homeButton = document.getElementById('home')
+
 let clickCount = 0;
-
-
-
-
-
 
 
 const carouselHandler = () => {
@@ -39,6 +40,28 @@ const carouselHandler = () => {
         thirdSliderSection.classList.remove('active');
     }
 }
+
+
+homeButton.addEventListener('click', () => {
+    homeSection.classList.remove('hidden');
+    storeSection.classList.add('hidden');
+    homeButton.classList.remove('secondary-button');
+    homeButton.classList.add('active-button');
+
+    storeButton.classList.remove('active-button');
+    storeButton.classList.add('secondary-button');
+
+})
+
+storeButton.addEventListener('click', () => {
+    storeSection.classList.remove('hidden');
+    homeSection.classList.add('hidden')
+    storeButton.classList.remove('secondary-button');
+    storeButton.classList.add('active-button');
+
+    homeButton.classList.remove('active-button');
+    homeButton.classList.add('secondary-button');
+})
 
 
 
