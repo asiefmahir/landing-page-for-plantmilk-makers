@@ -67,6 +67,7 @@ li {
 
 .header {
 	position: relative;
+	backface-visibility: hidden;
 }
 
 .wave {
@@ -178,9 +179,11 @@ li {
 }
 
 .hero {
+	max-height: 60rem;
 	background: linear-gradient(var(--white-color), #81c62748);
 	padding: 2rem 2rem 7rem;
 	margin-top: 3rem;
+	backface-visibility: hidden;
 }
 
 .active {

@@ -1,5 +1,5 @@
 @media (max-width: 1440px) {
-	.hero__image {
+	.hero__image, .hero__img--modifire {
 		width: 75rem;
 	}
 }
