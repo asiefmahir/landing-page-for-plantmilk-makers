@@ -452,6 +452,11 @@
 }
 
 /* Recent News Section */
+@media (min-width: 1528px) {
+	.recent-news__card-title {
+		font-size: 2.1rem;
+	}
+}
 
 @media (max-width: 990px) {
 	.recent-news__card-title {

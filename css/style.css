@@ -559,6 +559,7 @@ li {
 }
 
 .popular-recipies__card {
+	height: 32.5rem;
 	padding: 2rem;
 	border: 2px dashed var(--primary-color);
 	border-radius: 1rem;
@@ -567,6 +568,7 @@ li {
 }
 
 .popular-recipies__card-image {
+	height: 22.4rem;
 	border-radius: 1rem;
 	width: 100%;
 }
@@ -574,7 +576,7 @@ li {
 	font-weight: 700;
 	margin-top: 1.5rem;
 	color: #3e4d59;
-	font-size: 1.6rem;
+	font-size: 2.1rem;
 	line-height: 2.5rem;
 }
 
@@ -634,9 +636,9 @@ li {
 
 .recent-news__card-excerpt {
 	margin-top: 1rem;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	color: #666666;
-	line-height: 1.5rem;
+	line-height: 2rem;
 }
 
 .footer {
