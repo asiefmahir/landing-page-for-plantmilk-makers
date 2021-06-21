@@ -663,6 +663,7 @@ li {
 }
 
 .footer__important-links-title {
+	font-size: 1.6rem;
 	font-weight: 700;
 }
 
@@ -682,6 +683,7 @@ li {
 }
 
 .footer__social-links-title {
+	font-size: 1.6rem;
 	font-weight: bold;
 }
 
@@ -704,7 +706,7 @@ li {
 	margin-top: 1rem;
 	margin-left: 1rem;
 	/* font-weight: bold; */
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 
 .secondary-footer {
@@ -724,7 +726,7 @@ li {
 
 .secondary-footer__copy-right-text {
 	float: right;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 }
 .secondary-footer__button {
 	background-color: var(--primary-color);
