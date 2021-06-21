@@ -413,6 +413,11 @@
 }
 
 /* Recipies Section */
+@media (min-width: 1242px) {
+	.popular-recipies__card-text {
+		font-size: 2.1rem;
+	}
+}
 
 @media (max-width: 993px) {
 	.popular-recipies__card-text {
