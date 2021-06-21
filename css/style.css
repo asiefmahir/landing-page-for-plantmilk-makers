@@ -179,7 +179,7 @@ li {
 }
 
 .hero {
-	max-height: 60rem;
+	max-height: 62rem;
 	background: linear-gradient(var(--white-color), #81c62748);
 	padding: 2rem 2rem 7rem;
 	margin-top: 3rem;
