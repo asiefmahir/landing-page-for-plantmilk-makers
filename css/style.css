@@ -461,6 +461,7 @@ li {
 .why-plant-milk__button--primary {
 	border-radius: 5rem 0 0 5rem;
 	background: var(--primary-color);
+	border: 1px solid var(--primary-color);
 	color: var(--white-color);
 }
 
@@ -775,3 +776,9 @@ li {
 
 
 
+.first {
+	padding: 2rem 4.03rem;
+}
+.second {
+	padding: 2rem 3.1rem;
+}
